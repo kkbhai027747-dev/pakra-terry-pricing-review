@@ -1,0 +1,472 @@
+TAP version 13
+# Subtest: verifies the exact public header and excludes the initial covered warehouse row
+ok 1 - verifies the exact public header and excludes the initial covered warehouse row
+  ---
+  duration_ms: 3.9957
+  type: 'test'
+  ...
+# Subtest: parses visible stocked offers, distinguishes warehouse and never certifies the lowest ask
+ok 2 - parses visible stocked offers, distinguishes warehouse and never certifies the lowest ask
+  ---
+  duration_ms: 1.3079
+  type: 'test'
+  ...
+# Subtest: observed capped listing count identifies the fixed-price control without becoming a price
+ok 3 - observed capped listing count identifies the fixed-price control without becoming a price
+  ---
+  duration_ms: 1.9873
+  type: 'test'
+  ...
+# Subtest: accepts the observed English compact condition filter without inferring selection or a price
+ok 4 - accepts the observed English compact condition filter without inferring selection or a price
+  ---
+  duration_ms: 0.6998
+  type: 'test'
+  ...
+# Subtest: rejects ambiguous, altered, clipped and misplaced compact condition filters
+ok 5 - rejects ambiguous, altered, clipped and misplaced compact condition filters
+  ---
+  duration_ms: 1.1988
+  type: 'test'
+  ...
+# Subtest: compact layout retains exact language, card number, original name, pack and public context guards
+ok 6 - compact layout retains exact language, card number, original name, pack and public context guards
+  ---
+  duration_ms: 0.7278
+  type: 'test'
+  ...
+# Subtest: requires exact header identity and explicit observed labels for other languages
+ok 7 - requires exact header identity and explicit observed labels for other languages
+  ---
+  duration_ms: 0.7805
+  type: 'test'
+  ...
+# Subtest: rejects private input, login screens, foreign app content and invalid ancestry
+ok 8 - rejects private input, login screens, foreign app content and invalid ancestry
+  ---
+  duration_ms: 0.3775
+  type: 'test'
+  ...
+# Subtest: requires visible matching child prices and stocks rather than an accessibility label alone
+ok 9 - requires visible matching child prices and stocks rather than an accessibility label alone
+  ---
+  duration_ms: 1.064
+  type: 'test'
+  ...
+# Subtest: reads the official current-version minimum rather than the separate market reference
+ok 10 - reads the official current-version minimum rather than the separate market reference
+  ---
+  duration_ms: 0.8501
+  type: 'test'
+  ...
+# Subtest: rejects ambiguous, clipped, rounded, mismatched and absent current-version minima
+ok 11 - rejects ambiguous, clipped, rounded, mismatched and absent current-version minima
+  ---
+  duration_ms: 0.8867
+  type: 'test'
+  ...
+# Subtest: accepts exact observed Japanese original names and correctly grouped prices
+ok 12 - accepts exact observed Japanese original names and correctly grouped prices
+  ---
+  duration_ms: 0.8517
+  type: 'test'
+  ...
+# Subtest: records only visible list observations and never certifies a quote or version
+ok 13 - records only visible list observations and never certifies a quote or version
+  ---
+  duration_ms: 3.183
+  type: 'test'
+  ...
+# Subtest: requires pack context, matching header, readable count, selected RAW and price control
+ok 14 - requires pack context, matching header, readable count, selected RAW and price control
+  ---
+  duration_ms: 0.8119
+  type: 'test'
+  ...
+# Subtest: skips other packs, ambiguous labels, missing prices and clipped prices without declaring no stock
+ok 15 - skips other packs, ambiguous labels, missing prices and clipped prices without declaring no stock
+  ---
+  duration_ms: 0.7038
+  type: 'test'
+  ...
+# Subtest: normalizes displayed decimals and rejects conflicting repeated numbers
+ok 16 - normalizes displayed decimals and rejects conflicting repeated numbers
+  ---
+  duration_ms: 1.2298
+  type: 'test'
+  ...
+# Subtest: preserves abbreviated price displays without converting rounded UI text into an exact price
+ok 17 - preserves abbreviated price displays without converting rounded UI text into an exact price
+  ---
+  duration_ms: 0.4469
+  type: 'test'
+  ...
+# Subtest: accepts observed English 30C reprint numbers without accepting another set suffix
+ok 18 - accepts observed English 30C reprint numbers without accepting another set suffix
+  ---
+  duration_ms: 0.7825
+  type: 'test'
+  ...
+# Subtest: preserves four-part card labels with unknown rarity without accepting a truncated price row
+ok 19 - preserves four-part card labels with unknown rarity without accepting a truncated price row
+  ---
+  duration_ms: 0.4762
+  type: 'test'
+  ...
+# Subtest: records the visible 暂无 label without interpreting it as a verified no-offer quote
+ok 20 - records the visible 暂无 label without interpreting it as a verified no-offer quote
+  ---
+  duration_ms: 0.1813
+  type: 'test'
+  ...
+# Subtest: preserves the observed Japanese M6a LEGEND combination number as one literal observation
+ok 21 - preserves the observed Japanese M6a LEGEND combination number as one literal observation
+  ---
+  duration_ms: 0.4049
+  type: 'test'
+  ...
+# Subtest: pack targets accept both observed label orders and omit all price fields
+ok 22 - pack targets accept both observed label orders and omit all price fields
+  ---
+  duration_ms: 3.5404
+  type: 'test'
+  ...
+# Subtest: only explicitly continued views may omit the expanded header
+ok 23 - only explicitly continued views may omit the expanded header
+  ---
+  duration_ms: 0.684
+  type: 'test'
+  ...
+# Subtest: pack count accepts both exact observed comma and parenthesis labels
+ok 24 - pack count accepts both exact observed comma and parenthesis labels
+  ---
+  duration_ms: 1.6823
+  type: 'test'
+  ...
+# Subtest: unknown, sealed, clipped, mislabeled and small-action targets are never returned
+ok 25 - unknown, sealed, clipped, mislabeled and small-action targets are never returned
+  ---
+  duration_ms: 0.6407
+  type: 'test'
+  ...
+# Subtest: private fields, foreign packages and malformed trees stop pack parsing
+ok 26 - private fields, foreign packages and malformed trees stop pack parsing
+  ---
+  duration_ms: 0.2401
+  type: 'test'
+  ...
+# Subtest: detail identity discovers observed original names for the three public language headers
+ok 27 - detail identity discovers observed original names for the three public language headers
+  ---
+  duration_ms: 0.6799
+  type: 'test'
+  ...
+# Subtest: original-name discovery requires all independent markers and exact expected identity
+ok 28 - original-name discovery requires all independent markers and exact expected identity
+  ---
+  duration_ms: 0.5615
+  type: 'test'
+  ...
+# Subtest: CLI emits stable errors without echoing private or malformed input
+ok 29 - CLI emits stable errors without echoing private or malformed input
+  ---
+  duration_ms: 152.897
+  type: 'test'
+  ...
+# Subtest: unexpected original-name layout reports only lengths and geometry
+ok 30 - unexpected original-name layout reports only lengths and geometry
+  ---
+  duration_ms: 136.8501
+  type: 'test'
+  ...
+# Subtest: observed multiline title accepts only aligned original-name padding overlap up to four pixels
+ok 31 - observed multiline title accepts only aligned original-name padding overlap up to four pixels
+  ---
+  duration_ms: 0.8841
+  type: 'test'
+  ...
+# Subtest: independently recomputes quotes and retains original capture times and unfiltered condition scope
+ok 32 - independently recomputes quotes and retains original capture times and unfiltered condition scope
+  ---
+  duration_ms: 52.6179
+  type: 'test'
+  ...
+# Subtest: unknown, missing and abbreviated minima are unquoted, never zero or no-stock offers
+ok 33 - unknown, missing and abbreviated minima are unquoted, never zero or no-stock offers
+  ---
+  duration_ms: 45.6444
+  type: 'test'
+  ...
+# Subtest: rejects failed, incomplete and unattempted runs and missing sessions
+ok 34 - rejects failed, incomplete and unattempted runs and missing sessions
+  ---
+  duration_ms: 87.0018
+  type: 'test'
+  ...
+# Subtest: rejects duplicate UUIDs, foreign catalog identities and mismatched daily contexts
+ok 35 - rejects duplicate UUIDs, foreign catalog identities and mismatched daily contexts
+  ---
+  duration_ms: 117.5387
+  type: 'test'
+  ...
+# Subtest: rejects swapped card directories, changed evidence and invalid time sequences
+ok 36 - rejects swapped card directories, changed evidence and invalid time sequences
+  ---
+  duration_ms: 97.499
+  type: 'test'
+  ...
+# Subtest: rejects workspace escape and linked evidence paths without following them
+ok 37 - rejects workspace escape and linked evidence paths without following them
+  ---
+  duration_ms: 15.3004
+  type: 'test'
+  ...
+# Subtest: App preview revalidates captured evidence and scopes Shopify reads to this batch
+ok 38 - App preview revalidates captured evidence and scopes Shopify reads to this batch
+  ---
+  duration_ms: 43.2659
+  type: 'test'
+  ...
+# Subtest: explicit transport-prefix verification preserves eighteen completed quotes and the original stopped report
+ok 39 - explicit transport-prefix verification preserves eighteen completed quotes and the original stopped report
+  ---
+  duration_ms: 211.0723
+  type: 'test'
+  ...
+# Subtest: transport-prefix rejects other causes, stages, noncontiguous rows and count truncation
+ok 40 - transport-prefix rejects other causes, stages, noncontiguous rows and count truncation
+  ---
+  duration_ms: 1646.7059
+  type: 'test'
+  ...
+# Subtest: failed and unattempted identities must match the catalog and failed context exactly
+ok 41 - failed and unattempted identities must match the catalog and failed context exactly
+  ---
+  duration_ms: 1337.7378
+  type: 'test'
+  ...
+# Subtest: transport-prefix cannot hide modified successful evidence or contradictory failure artifacts
+ok 42 - transport-prefix cannot hide modified successful evidence or contradictory failure artifacts
+  ---
+  duration_ms: 1148.054
+  type: 'test'
+  ...
+# Subtest: captures only the selected batch in sequence, stores whitelisted context and releases the shared lock
+ok 43 - captures only the selected batch in sequence, stores whitelisted context and releases the shared lock
+  ---
+  duration_ms: 31.5035
+  type: 'test'
+  ...
+# Subtest: login or device failure stops later cards and never records child output or exception details
+ok 44 - login or device failure stops later cards and never records child output or exception details
+  ---
+  duration_ms: 39.4609
+  type: 'test'
+  ...
+# Subtest: a missing minimum remains null and permits the next explicit card, while invalid evidence stops
+ok 45 - a missing minimum remains null and permits the next explicit card, while invalid evidence stops
+  ---
+  duration_ms: 39.7182
+  type: 'test'
+  ...
+# Subtest: invalid ranges, duplicate contexts and an occupied device lock never invoke the collector
+ok 46 - invalid ranges, duplicate contexts and an occupied device lock never invoke the collector
+  ---
+  duration_ms: 5.1517
+  type: 'test'
+  ...
+# Subtest: fee is 7% of gross sale revenue, and net margin uses the same gross denominator
+ok 47 - fee is 7% of gross sale revenue, and net margin uses the same gross denominator
+  ---
+  duration_ms: 1.325
+  type: 'test'
+  ...
+# Subtest: whole-dollar endpoints stay within 30–50%, and one dollar beyond either fails
+ok 48 - whole-dollar endpoints stay within 30–50%, and one dollar beyond either fails
+  ---
+  duration_ms: 1.3902
+  type: 'test'
+  ...
+# Subtest: shipping is included once for a combined procurement and shipment
+ok 49 - shipping is included once for a combined procurement and shipment
+  ---
+  duration_ms: 0.2733
+  type: 'test'
+  ...
+# Subtest: higher actual shipping and other expenses reduce profit by their actual amount
+ok 50 - higher actual shipping and other expenses reduce profit by their actual amount
+  ---
+  duration_ms: 0.2076
+  type: 'test'
+  ...
+# Subtest: reject invalid, under-budget, fractional-cent or unsafe amounts
+ok 51 - reject invalid, under-budget, fractional-cent or unsafe amounts
+  ---
+  duration_ms: 0.3967
+  type: 'test'
+  ...
+# Subtest: existing single-card formula gives USD 4 for CNY 10 plus CNY 2
+ok 52 - existing single-card formula gives USD 4 for CNY 10 plus CNY 2
+  ---
+  duration_ms: 19.9446
+  type: 'test'
+  ...
+# Subtest: already matching prices are reported without writes
+ok 53 - already matching prices are reported without writes
+  ---
+  duration_ms: 1.1244
+  type: 'test'
+  ...
+# Subtest: verified App quotes retain their unfiltered scope and evidence in review rows
+ok 54 - verified App quotes retain their unfiltered scope and evidence in review rows
+  ---
+  duration_ms: 1.0994
+  type: 'test'
+  ...
+# Subtest: Shanghai day is used at UTC date boundaries
+ok 55 - Shanghai day is used at UTC date boundaries
+  ---
+  duration_ms: 0.9838
+  type: 'test'
+  ...
+# Subtest: old, future and malformed quotes cannot change prices
+ok 56 - old, future and malformed quotes cannot change prices
+  ---
+  duration_ms: 1.4588
+  type: 'test'
+  ...
+# Subtest: zero, negative, missing and nonfinite source values are blocked
+ok 57 - zero, negative, missing and nonfinite source values are blocked
+  ---
+  duration_ms: 3.6062
+  type: 'test'
+  ...
+# Subtest: explicit current no-offer observations are skipped and retain the old price
+ok 58 - explicit current no-offer observations are skipped and retain the old price
+  ---
+  duration_ms: 1.964
+  type: 'test'
+  ...
+# Subtest: unknown availability is blocked rather than treated as an observed no-offer
+ok 59 - unknown availability is blocked rather than treated as an observed no-offer
+  ---
+  duration_ms: 1.9385
+  type: 'test'
+  ...
+# Subtest: no-offer observations must pass identity, timestamp, currency and amount validation
+ok 60 - no-offer observations must pass identity, timestamp, currency and amount validation
+  ---
+  duration_ms: 2.9801
+  type: 'test'
+  ...
+# Subtest: unsupported price metrics and currency remain blocked
+ok 61 - unsupported price metrics and currency remain blocked
+  ---
+  duration_ms: 0.9201
+  type: 'test'
+  ...
+# Subtest: duplicate card, quote, identity and variant mappings are blocked
+ok 62 - duplicate card, quote, identity and variant mappings are blocked
+  ---
+  duration_ms: 0.6206
+  type: 'test'
+  ...
+# Subtest: language, set, version and exact Shopify identifiers cannot be guessed
+ok 63 - language, set, version and exact Shopify identifiers cannot be guessed
+  ---
+  duration_ms: 1.1458
+  type: 'test'
+  ...
+# Subtest: only explicitly enabled and online ACTIVE mapped cards are considered
+ok 64 - only explicitly enabled and online ACTIVE mapped cards are considered
+  ---
+  duration_ms: 1.5103
+  type: 'test'
+  ...
+# Subtest: missing shipping confirmation or actual shipping blocks changes
+ok 65 - missing shipping confirmation or actual shipping blocks changes
+  ---
+  duration_ms: 1.677
+  type: 'test'
+  ...
+# Subtest: current project policy prices CNY 90 at USD 51 including CNY85 logistics
+ok 66 - current project policy prices CNY 90 at USD 51 including CNY85 logistics
+  ---
+  duration_ms: 2.0411
+  type: 'test'
+  ...
+# Subtest: order-only procurement cost is recorded once in policy and never allocated to cards
+ok 67 - order-only procurement cost is recorded once in policy and never allocated to cards
+  ---
+  duration_ms: 0.9733
+  type: 'test'
+  ...
+# Subtest: one CNY 15 charge is shared by all purchased units in the same order
+ok 68 - one CNY 15 charge is shared by all purchased units in the same order
+  ---
+  duration_ms: 1.0736
+  type: 'test'
+  ...
+# Subtest: per-order shipping requires complete and consistent positive procurement quantities
+ok 69 - per-order shipping requires complete and consistent positive procurement quantities
+  ---
+  duration_ms: 2.3714
+  type: 'test'
+  ...
+# Subtest: fractional-cent allocation is not rounded before calculating the final USD price
+ok 70 - fractional-cent allocation is not rounded before calculating the final USD price
+  ---
+  duration_ms: 0.6653
+  type: 'test'
+  ...
+# Subtest: large changes are held for review with exact old and proposed prices
+ok 71 - large changes are held for review with exact old and proposed prices
+  ---
+  duration_ms: 1.3342
+  type: 'test'
+  ...
+# Subtest: missing records fail closed and input data is not mutated
+ok 72 - missing records fail closed and input data is not mutated
+  ---
+  duration_ms: 1.0357
+  type: 'test'
+  ...
+# Subtest: explicit order-margin40 model uses 7% of revenue and one CNY85 shipment per listing
+ok 73 - explicit order-margin40 model uses 7% of revenue and one CNY85 shipment per listing
+  ---
+  duration_ms: 2.4314
+  type: 'test'
+  ...
+# Subtest: order-margin40 never divides shipping by batch size or a procurement group
+ok 74 - order-margin40 never divides shipping by batch size or a procurement group
+  ---
+  duration_ms: 0.8098
+  type: 'test'
+  ...
+# Subtest: unknown pricing models and new-model quote ages exceeding4 hours fail closed
+ok 75 - unknown pricing models and new-model quote ages exceeding4 hours fail closed
+  ---
+  duration_ms: 0.6734
+  type: 'test'
+  ...
+# Subtest: order-margin40 preserves quote, mapping and source-price guards
+ok 76 - order-margin40 preserves quote, mapping and source-price guards
+  ---
+  duration_ms: 1.8093
+  type: 'test'
+  ...
+# Subtest: order-margin40 retains old price for no offer and keeps large migration changes blocked
+ok 77 - order-margin40 retains old price for no offer and keeps large migration changes blocked
+  ---
+  duration_ms: 0.633
+  type: 'test'
+  ...
+1..77
+# tests 77
+# suites 0
+# pass 77
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5069.5135

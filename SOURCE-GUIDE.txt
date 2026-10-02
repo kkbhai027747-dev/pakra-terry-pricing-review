@@ -1,0 +1,42 @@
+SOURCE MAP — original files retained for review
+
+source/pokemon-single-card-sync/
+  order-margin-pricing.mjs: offline order cost/profit and 30/40/50% scenarios.
+  pricing.mjs: selected 40% listing policy, identity/mapping checks, quotation age
+    and price-change validation; buildPricePlan is a pure local review function.
+  config.json: original machine configuration, current model and shipping mode.
+  source.mjs: public catalog/source discovery; network-dependent.
+  capture-app-list.ps1 / capture-app-detail.ps1 / capture-app-pack.ps1:
+    Windows/ADB collection of public Jihuanshe app screens and evidence.
+  app-listing.mjs / app-detail.mjs / app-pack-detail.mjs:
+    parse public UI observations and exact card/version identity.
+  summarize-app-list.mjs / summarize-app-detail.mjs / app-quotes.mjs:
+    validate evidence, timestamps and source/condition scope.
+  crop-app-card.py / verify-app-pack.mjs:
+    crop screenshot images and verify saved card evidence.
+  collect-app-daily.mjs / listed-app-cards.mjs / run-listed-daily.mjs:
+    orchestrate collection for mapped cards and produce review previews; require
+    device and/or Shopify access, and are not offline commands.
+  prepare-listings.mjs / listing-shopify.mjs / shopify.mjs / sync.mjs:
+    listing preparation and Shopify integration. Some paths can write remotely.
+  authorized-price-sync.mjs: policy-gated price-write implementation, including
+    support for the current model. No enabled policy or approval is in this package.
+  *.ps1 installers/launchers and recovery helpers: source review only.
+
+The original empty mapping.json is deliberately not copied. Actual saved
+historical product/variant mappings are supplied in data/ with their scope and
+timestamps. They are review data, not an enabled execution mapping.
+
+The relative dependency source/collaboration/pakra-projects-handoff/scripts/lib/
+is retained because pricing.mjs imports the earlier MLP pricing policy. Its
+pricing/ and qiandao/ modules form part of that import closure. The legacy policy
+is not the selected Pokémon formula: explicitly inspect pricingModel
+order_net_margin_40_fee_7. Do not remove this dependency or silently omit the model.
+
+The test fixtures use synthetic records. Real examples are only in data/.
+Three selected JavaScript helpers under source/output/ are retained to satisfy
+refresh-completed-mapping.mjs imports; they are source code, not operational
+approval files or runtime data. Historical output/evidence trees are not bundled.
+Some source entrypoints therefore require data beyond this review package.
+No collection, scheduled task or remote integration was executed to build this
+package. Original source snapshots have not been refactored or repaired here.

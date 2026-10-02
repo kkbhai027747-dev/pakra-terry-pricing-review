@@ -1,0 +1,106 @@
+{
+  "purpose": "Offline reproduction of historical arithmetic; not market-value or current-price verification.",
+  "count": 10,
+  "results": [
+    {
+      "sample": "S01",
+      "card": "30thC-001/103",
+      "language": "zh-Hans",
+      "source_cny": "0.50",
+      "observed_at_utc": "2026-09-28T08:33:52.694Z",
+      "recomputed_usd": "25.00",
+      "historical_shopify_usd": "25.00",
+      "arithmetic_match": true
+    },
+    {
+      "sample": "S02",
+      "card": "30thC-042/103",
+      "language": "zh-Hans",
+      "source_cny": "0.50",
+      "observed_at_utc": "2026-09-28T13:04:03.177Z",
+      "recomputed_usd": "25.00",
+      "historical_shopify_usd": "25.00",
+      "arithmetic_match": true
+    },
+    {
+      "sample": "S03",
+      "card": "30C-061/128",
+      "language": "en",
+      "source_cny": "5.00",
+      "observed_at_utc": "2026-09-29T13:12:01.314Z",
+      "recomputed_usd": "27.00",
+      "historical_shopify_usd": "27.00",
+      "arithmetic_match": true
+    },
+    {
+      "sample": "S04",
+      "card": "30thC-124/103",
+      "language": "zh-Hans",
+      "source_cny": "8.00",
+      "observed_at_utc": "2026-09-28T13:07:34.075Z",
+      "recomputed_usd": "27.00",
+      "historical_shopify_usd": "27.00",
+      "arithmetic_match": true
+    },
+    {
+      "sample": "S05",
+      "card": "30thC-125/103",
+      "language": "zh-Hans",
+      "source_cny": "19.00",
+      "observed_at_utc": "2026-09-28T13:09:19.177Z",
+      "recomputed_usd": "31.00",
+      "historical_shopify_usd": "31.00",
+      "arithmetic_match": true
+    },
+    {
+      "sample": "S06",
+      "card": "30thC-136/103",
+      "language": "zh-Hans",
+      "source_cny": "65.00",
+      "observed_at_utc": "2026-09-28T13:09:44.149Z",
+      "recomputed_usd": "44.00",
+      "historical_shopify_usd": "44.00",
+      "arithmetic_match": true
+    },
+    {
+      "sample": "S07",
+      "card": "30thC-150/103",
+      "language": "zh-Hans",
+      "source_cny": "79.99",
+      "observed_at_utc": "2026-09-28T08:32:38.113Z",
+      "recomputed_usd": "48.00",
+      "historical_shopify_usd": "48.00",
+      "arithmetic_match": true
+    },
+    {
+      "sample": "S08",
+      "card": "M6a-150/103",
+      "language": "ja",
+      "source_cny": "251.00",
+      "observed_at_utc": "2026-09-28T08:33:04.115Z",
+      "recomputed_usd": "98.00",
+      "historical_shopify_usd": "98.00",
+      "arithmetic_match": true
+    },
+    {
+      "sample": "S09",
+      "card": "30thC-142/103",
+      "language": "zh-Hans",
+      "source_cny": "298.00",
+      "observed_at_utc": "2026-09-28T08:45:14.422Z",
+      "recomputed_usd": "112.00",
+      "historical_shopify_usd": "112.00",
+      "arithmetic_match": true
+    },
+    {
+      "sample": "S10",
+      "card": "AQUA-149/147(30C)",
+      "language": "en",
+      "source_cny": "3000.00",
+      "observed_at_utc": "2026-09-28T08:33:29.599Z",
+      "recomputed_usd": "896.00",
+      "historical_shopify_usd": "896.00",
+      "arithmetic_match": true
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+DATA GUIDE — historical records, not a fresh store audit
+
+data/historical-pricing-samples-10.csv / .json
+Ten actual saved examples across low, mid and high source amounts, with Chinese,
+Japanese and English card versions represented. JSON retains the full provenance;
+CSV is convenient for a spreadsheet. Source prices are CNY, Shopify prices USD.
+
+These are arithmetic/model-review examples, not confirmed wrong-price cases.
+All ten recompute to the saved Shopify price under the current 40% formula. That
+does not verify their market value, selected condition or today's source price.
+For example, a CNY 0.50 card becomes USD 25 because the listing includes CNY 85
+of shipping allowances; a CNY 5 card becomes USD 27. Terry can use these to examine
+the shipping/model concern without mistaking it for a calculation error.
+
+data/historical-shopify-mapping-120.csv / .json
+120 historical exact identity/product/variant mappings. These are review records,
+not enabled mapping configuration. The included IDs are unique. Saved prices and
+availability were checked against locally saved Shopify readbacks. All recorded
+products are in display-only mode; current availability was not checked.
+
+data/sample-and-status-notes.json
+The latest selected independent audit is 2026-10-01 08:23:21.603 UTC, equivalent
+to 1 October 16:23:21.603 in Shanghai. It records 120 verified products and 120
+V9 catalog cards, with 423 products remaining from the 543-single-card scope.
+The 120 comprise 50 Simplified Chinese, 1 Japanese and 69 English versions.
+The audit itself checked saved evidence; it was not a fresh remote request.
+
+The acquired identity/image catalog contains 544 records (176 Chinese, 177
+Japanese, 191 English), with an embedded update time of 27 September. One Japanese
+two-card set is held outside the 543-single-card scope. Identity/image acquisition
+does not establish completed quotations, full-resolution original images or
+completed Shopify integration. Do not interpret 544 as completed priced products.
+
+data/provenance.json
+Source paths and newly computed SHA-256 checksums for the 117 local evidence
+inputs used to build these exports. Supplied historical hashes were also checked
+where present. Paths are relative to Jun's original repository and are not links
+to files bundled here. Raw app screenshots, capture UI dumps and full historical
+execution folders are omitted. They remain on Jun's side for a targeted follow-up.
+
+Key fields
+  identity: pokemon:<language>:<set_id>:<source_uuid>; do not match by name alone.
+  source_uuid: exact Jihuanshe card/version identifier from saved evidence.
+  set_id / set_code / card_number: source identity context, not Shopify IDs.
+  product_id / variant_id / sku: exact saved Shopify correspondence.
+  historical_source_asking_price_cny: saved source amount, not a current quote.
+  source_quote_observed_at_utc: actual recorded source observation time.
+  source_condition_scope: app_unfiltered_version_minimum, not NM or another
+    verified condition; condition_filtered is false for every example.
+  historical_shopify_price_usd: price in the selected saved readback.
+  historical_readback_or_completion_at_utc: timestamp and basis are separate;
+    a completion timestamp is not relabeled as a raw readback capture time.
+    Null means the readback omitted its own timestamp. Use the audit time as an
+    explicitly weaker supporting timestamp, not an invented observation time.
+  supporting_audit_at_utc: time of the saved audit supporting the row.
+  recomputed_price_usd / calculation: reproduction of the existing formula.
+  verified_wrong_price_example: false; no confirmed market-price error asserted.
+  automation_enabled_by_this_handoff: false.
+
+Times are UTC ISO timestamps unless explicitly converted. File modification dates
+are not used as capture dates because files were copied during workstation migration.
+Every example is too old for an operational same-day/four-hour quotation check.
+
+Observed run status is historical. No device, background worker or scheduler was
+queried or started for this handoff, so current runtime/schedule status is unknown.

@@ -1,0 +1,22 @@
+Hi Terry,
+
+I've put together an initial review package with the current collection and
+pricing scripts, pricing assumptions, historical sample data and the available
+card-to-Shopify mappings. Collection and integration are still in progress, so
+I've marked the snapshot dates and remaining gaps throughout.
+
+Please start with START-HERE.txt. The samples show the source amount and capture
+time, the calculation and the saved Shopify price. They are historical examples,
+not fresh quotes. The package also distinguishes the current 40% model from the
+older pricing code that is still retained as a dependency.
+
+For the initial review, please focus on the per-card shipping allowance, single-
+versus multi-card orders, condition filtering and reliable ID mapping. The 40%
+margin remains open for review. I'll continue with the multi-IP catalog and
+storefront, and supply further verified samples as the collection progresses.
+
+As agreed, please keep this at review/preview stage until Hao and I have reviewed
+the proposed changes. No credentials or write authorization are included.
+
+Thanks,
+Jun

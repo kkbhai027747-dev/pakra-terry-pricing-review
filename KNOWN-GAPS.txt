@@ -1,0 +1,48 @@
+REVIEW STATUS AND OPEN QUESTIONS
+
+Confirmed from the existing code and historical evidence
+- Formula and integer-USD rounding can be reproduced offline.
+- Jihuanshe quotations represent the exact version's lowest asking amount, with
+  condition scope app_unfiltered_version_minimum. They do not establish NM or
+  another selected condition and are not completed-sale prices.
+- Distinguish a collected identity/image from a fresh valid quote, a saved Shopify
+  product, and a card present in the V9 catalog. These are separate milestones.
+- New operation quotes require the same Asia/Shanghai business date and a maximum
+  age of four hours. The archived examples are for diagnosis and cannot be reused
+  as current operational quotes.
+- Documentation contains multiple historical checkpoints. DATA-NOTES.txt reports
+  the selected later snapshot with embedded timestamps and precise limits.
+
+Still pending for the handoff
+- Complete collection/quotation/listing work for the intended catalog scope.
+- Confirm condition-specific source availability and a reliable selection rule.
+- Review stale, unavailable, anomalous and identity-mismatched quotes, and how
+  they should be escalated instead of automatically applied.
+- Reconcile a fresh Shopify mapping before a future integration. The enclosed
+  IDs and prices are from saved readbacks, not a current-store audit.
+- Confirm the current schedule/automation state on the actual runtime machine
+  before claiming any task is enabled; local backups alone cannot establish it.
+
+Questions for Terry's initial review
+1. Compare low-, mid- and high-value cards and single-card versus multi-card
+   orders. Should shipping be paid separately, charged once per order or handled
+   by another reviewed rule? The current per-card CNY 85 floor is the concern.
+2. Review the 40% target, 7% fee and fixed 6.5 FX assumption. Identify other costs
+   or situations that the current model does not cover.
+3. Agree on the canonical identity pokemon:<language>:<setId>:<versionId> and
+   exact Shopify product + variant + SKU mapping. Names alone are insufficient.
+4. Propose preview/review, source freshness, failure handling and audit history
+   before enabling automatic price changes.
+
+Wrong-price examples
+Do not interpret every high price as a calculation bug. The sample table
+separates arithmetic reproduction, shipping/model concerns, unfiltered condition
+and missing fresh verification. It does not invent a confirmed incorrect market
+price. Any suspected error should retain the observation time, source scope,
+formula inputs and the corresponding historical Shopify readback.
+
+Credentials and approval
+Future Shopify access must use the official CLI credential store. No tokens,
+cookies or secrets are part of this handoff. Jun and Hao must review the proposed
+pricing changes first; any actual store write needs the applicable current-task
+approval and exact affected object/field list.

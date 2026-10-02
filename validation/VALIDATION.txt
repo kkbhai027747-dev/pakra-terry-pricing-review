@@ -1,0 +1,22 @@
+Validation performed on 2 October 2026 (local package only)
+
+Node runtime: v24.19.0
+Copied files match source SHA-256: 83
+Resolved static relative JS imports: 96
+Historical mapping: 120 unique identities, products and variants
+Historical examples: 10/10 recalculations equal the saved Shopify price
+Focused tests: 77 passed, 0 failed
+
+Exact command from package root:
+node --test --test-reporter=tap source/pokemon-single-card-sync/test/order-margin-pricing.test.mjs source/pokemon-single-card-sync/test/pricing.test.mjs source/pokemon-single-card-sync/test/app-listing.test.mjs source/pokemon-single-card-sync/test/app-detail.test.mjs source/pokemon-single-card-sync/test/app-pack-detail.test.mjs source/pokemon-single-card-sync/test/app-quotes.test.mjs source/pokemon-single-card-sync/test/collect-app-daily.test.mjs
+
+Full test output: focused-tests.tap.txt
+Historical sample output: historical-sample-reproduction.json
+Machine-readable result: summary.json
+
+No remote service, store write, emulator or scheduled task was invoked.
+The test clients are mocked and fixtures synthetic; real samples are archived.
+Credentials/control files were excluded by file selection. A final scan found
+no high-confidence secret patterns; that is a pattern check, not a guarantee
+about every possible secret format. Current prices, card condition, task state
+and live integration were not verified by these offline checks.

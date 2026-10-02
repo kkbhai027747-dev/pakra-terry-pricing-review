@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "source_path_base": "repository root; legacy D:/CODEX paths normalized",
+  "inputs": [
+    {
+      "path": "output/pokemon-margin40-listing-20260928/final40-independent-audit.json",
+      "sha256": "e6cd8e01dbc6109e465588676b6d9ae1cf485c37cb08d2434299b637f6d129ac"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/final40-sources.json",
+      "sha256": "75e360bae4996c23b4dfb94cd35351675e6754d9dc5667340d264cc1778d47f3"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/first10-fresh-quotes-independent-20260928.json",
+      "sha256": "0d71d1b99b0daf1e5af7fdd1592f1aa4c5b7eb80704cec34b793e6295ffd7e5f"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/first20-price-completed.json",
+      "sha256": "c4931513df327ef8afff128b70e6fd31ee19cf1171cecf5e7144a6b74a9eaa4b"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/first20-price-plan.json",
+      "sha256": "384ebee6e1509ca49c4c29bdc10c9b3d2c4a56ff76886fae44bebbbefae05201"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/forty-price-ledger.json",
+      "sha256": "f4f77dfb9a10fc1d8d29d9146178adc05746054a40b8b165dc3bf0d2cc1662ff"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/next20-after-upload-retry/v9-verified-products.json",
+      "sha256": "5f3a4afd49e61e122dddd16c39efdd573394a19af3c3f3f0cfbf25639348eb2e"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/next20-canary/v9-verified-products.json",
+      "sha256": "e862f55b4163b2b475176fbd4e073e35ca74c64d1877d3b0a0cc992e45ab5272"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/next20-prepared/listing-plan.json",
+      "sha256": "cfe5eb16983d9c9dc7092bf614fd58bf31c54d799d81f0e35c8bd64dc361865b"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/next20-remaining/v9-verified-products.json",
+      "sha256": "416fda4b0933baabe537b16dd577e89b04eef5e8eb88572bfbf7b5434284b0ab"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/progress-audits/2026-10-01T08-23-21-603Z.json",
+      "sha256": "939a38ea8b431006c5681a2137639ab28f7ea274d1e6316c08a2345927d25505"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-single-card-queue.json",
+      "sha256": "ece88600b814061e1a8257b432143d4fea118926a44aeb86dbfea085b87059b4"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-01/v9-verified-products.json",
+      "sha256": "fa2ed8bfbe60b09c11a1c20fdde9f5bd66ca080d435574caba87346624c1fd4d"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-02/v9-verified-products.json",
+      "sha256": "57015fff65e9f2521ea190a009a050a026db1ca0a4233e0a93eee7662abe3e72"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-03/v9-verified-products.json",
+      "sha256": "d031704f7fe49cdd7314628bb8cb817362f1b230a39d5eedfb52bd7b701312cd"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-04-resumed-a8c1597298ff/v9-verified-products.json",
+      "sha256": "fb60bab3af2ecdfc37e35c39fdd144e863f8b44f33c7526b70723c578b925448"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-05/v9-verified-products.json",
+      "sha256": "d45387c949731f9e1d1c45995112cfc2e0fe6a6d325ac71dd478700eaa3fa7f2"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-06/v9-verified-products.json",
+      "sha256": "9067302550d5bb872d6ecb7aa5081e324c5cdf45e7dd60bc26433a5e8eb23fa4"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-07/v9-verified-products.json",
+      "sha256": "eb8785e987217ab220afe57b9f58a6c482a2850b1e371622491e929f8f027817"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-08-resumed-8cf48d4f3da9/v9-verified-products.json",
+      "sha256": "c8b6c151a34ef374d294b47e643bf9ed0a47aa562a4b678d33b8e7b927f2b362"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-09/v9-verified-products.json",
+      "sha256": "889c4630bb22196b473821bd5fa98c81f474eb887246e3a90deb0d500f69ad86"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-10/v9-verified-products.json",
+      "sha256": "907c885bd03443c5abd06037590801d750183601b4abf08e63dddf366591ea7f"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-11/v9-verified-products.json",
+      "sha256": "2ca6e19fb55abd6c71dca0e7a8d1aaa8d95aa68f56305bff43972a63089666da"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-12/v9-verified-products.json",
+      "sha256": "e8b86edabe64f10f32f9f4cf210e85b47c8c3c64b8b7e02440af7d6c10448d7f"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-13/v9-verified-products.json",
+      "sha256": "387ef54db7adba7aa8200962604671b761e6fed526a51bd8b7d7fa2d2d006c96"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-14/v9-verified-products.json",
+      "sha256": "992cf7ab84ac4d4a552fcbeb66526f3db8a65ea7f23bbdfae494e24ddd623ea2"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-15/v9-verified-products.json",
+      "sha256": "d3a0fe0f07db0d33b51d5f56a5da8d871e2ed168707bc381e206cc4d011e2051"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-16/v9-verified-products.json",
+      "sha256": "7704bb5c991e01ad63d977105ee9507d4c3c829db531a1a870df26fcc8285db0"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-17/v9-verified-products.json",
+      "sha256": "f95ae9a8f418aa423fb432b96eae56fb545d621d10ba7ac1b83bb34d0a230bce"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-18/v9-verified-products.json",
+      "sha256": "8a1f1985fa2d32c5b0e392b32eac06f00b6a440632bd4b5b264d40e354058219"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-19/v9-verified-products.json",
+      "sha256": "48353bb7d96973dbdc845f7600163dfd1fe85da2ce7f5ffc2efe1e787f31e167"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-001/card-20/v9-verified-products.json",
+      "sha256": "463559e8a4b21626d36bdde83f4299b305b8348e8b4da7d5da30ffbcc6d1ee4e"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-01-resumed-37db7b49dc9e/v9-verified-products.json",
+      "sha256": "f9df4c816ae7c17fde84171e09fffd1fa6a69c85b16867e0a50a37b1133d4ead"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-02/v9-verified-products.json",
+      "sha256": "9c472387031f251eb6f496a859769fe0e8437487c182f75a3de248004a6edea0"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-03/v9-verified-products.json",
+      "sha256": "5ec2fdc4074e488046b3c5452c860e74abc365ec410135f525e5705ec3f52e79"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-04-resumed-ebd438b24532/v9-verified-products.json",
+      "sha256": "d2b7b63389bc84540f5f89e8fea1efdc671f9bd76c5037818e233a05edc7834a"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-05/v9-verified-products.json",
+      "sha256": "193bb8302d6a715b53b9ee8ae570c6e3f23bef35149796e9b14c9fea50a81b72"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-06/v9-verified-products.json",
+      "sha256": "5b644ac5b4bce14b41be79f85e89cb2d0a22ebf2b571f6572f5521ad52e5671d"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-07/v9-verified-products.json",
+      "sha256": "0860706a0cc950555b44d2e1e1b5b327bca7bb3eb07f63442b1e5138fadcbea3"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-08/v9-verified-products.json",
+      "sha256": "ad7ab733c9ee33fcf7fe6dce761369c133383448751297f6779776ef41e679b2"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-09/v9-verified-products.json",
+      "sha256": "afaec18de4d7f446021ff64aa00c0d95d47cea9bc41d68e927f4d9be6c51ba73"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-10/v9-verified-products.json",
+      "sha256": "fbc8fd8e0105a2f3bc038ef4e9497e1d141c1391876726b83f3862d97b54bbed"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-11/v9-verified-products.json",
+      "sha256": "43a0eb92fde48738b8c159174595b0ebdbdde26ab5f86b9cf015029f00aac329"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-12/v9-verified-products.json",
+      "sha256": "397eb1124eb3b045148f1e43025b3820b1a5b077f45bcdaa04c0bcbb90d2a698"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-13/v9-verified-products.json",
+      "sha256": "ab12d03cd07e7815cf2180ad2d1da9b76a018e0b6f68c8a39056521ace71ba22"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-14/v9-verified-products.json",
+      "sha256": "2c437841e7ad85bfafa88c7c78db8128f442a8e83a87b9690e7eb8a23c2b2466"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-15/v9-verified-products.json",
+      "sha256": "8c517394f8618d26c094da3dd17ae2b7b15823328e06b82adb24477f34eeb705"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-16/v9-verified-products.json",
+      "sha256": "e384b52b39a4b422d0f1068521f7253894d97144e0ba2c27734ffb8303ff4438"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-17/v9-verified-products.json",
+      "sha256": "f1acc4404d323540fee132b176a762b6172471c30eda7a47b6efbaa4c6e5fbbc"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-18/v9-verified-products.json",
+      "sha256": "f578b42e5ab8adca74966305b3e6ff10cb5bcb249594ffec4d717d11db7b2209"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-19/v9-verified-products.json",
+      "sha256": "9496014869691b6f72d853fb1327fe7f6934cd1be19be5ae3008b4389d128951"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-002/card-20/v9-verified-products.json",
+      "sha256": "e489178929bfccbf2134253c5000d4fbf424dadd8a1c862e2d8fc3781efdcf1c"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-01/v9-verified-products.json",
+      "sha256": "b05c76be23053a71981e77090703c02120ebdffe0bdaac9f7e3137c226d42b98"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-02/v9-verified-products.json",
+      "sha256": "fe189d9ba1c61aa7dc89844b97550e73136b8340943cd349d9917c8186907fef"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-03/v9-verified-products.json",
+      "sha256": "0426e7ee3cb9261de8158dc377003ecd6182ff4b290bd91222dbe78651a00c92"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-04/v9-verified-products.json",
+      "sha256": "1f33ad2c88da2c6afc29a62ed6913721d0a1448137d5461f71558bfd4e552a67"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-05/v9-verified-products.json",
+      "sha256": "5012b823ead19d1bceb99982627f5dc29e4ea0a78198fc8261a951fdbb729008"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-06-resumed-61017a26da26/v9-verified-products.json",
+      "sha256": "26ae208c42a9228ab21232a41a3682050e078c4d347db5dc680aa98d0d3c4c8c"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-07-resumed-1c8eee84a863/v9-verified-products.json",
+      "sha256": "c2f2258ff01749dc7196fa8d8ede920897084cd3b5fb7ebb43cadba9b0e98b50"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-08/v9-verified-products.json",
+      "sha256": "4c5af5c14de586022cebcf0b0964faaa25236e50f08088f8bb72396d1d53b249"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-09/v9-verified-products.json",
+      "sha256": "5bd408d47e3a3e94f91008ee61c780f68fd84bc9d91cc469e8ceefa6e03b35c7"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-10/v9-verified-products.json",
+      "sha256": "5ce0dd728e035504b98798d3db9841ba5622e9fa474af8f49c5f296e281206fe"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-11/v9-verified-products.json",
+      "sha256": "50c939b7efd026c078ea2a7feb7a928540ef4c448e26792b1bdda647f975a85e"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-12/v9-verified-products.json",
+      "sha256": "0d890f3140c1f81c59ac261343ca16fff3a65465565be3c8dcb8651544832eba"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-13/v9-verified-products.json",
+      "sha256": "23273aad773e04b5a750b85d2524c576586ae4a1510b53f5f4f047d9263ff1f7"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-14/v9-verified-products.json",
+      "sha256": "df746e9efb80ce121435e0050aca7ca1d1e43316c64afeb34c1678f3272dddc8"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-15/v9-verified-products.json",
+      "sha256": "e223b1f5b558c27c66c209e62dda6fb65a9c4998874aa1ad933706a763b48467"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-16/v9-verified-products.json",
+      "sha256": "3ea73068da9529ad579f7ccb7f55f87fcdce10397fd0289b903c93d38b1cf49b"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-17/v9-verified-products.json",
+      "sha256": "9d9ff748fae44c14539562f7430d25674b487496bdf1c2f7fc9b2809087a0dc2"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-18-resumed-c86302ca63c2/v9-verified-products.json",
+      "sha256": "af9b096008f04934f7eb991b1c6b82a4cce849627249c0a31fb6d245a7f58837"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-19-resumed-864ed99c2124/v9-verified-products.json",
+      "sha256": "06044bfbf99c63aadae57464d404c1d30c89924e795ec9c3393b0212a7eb6c65"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/card-20/v9-verified-products.json",
+      "sha256": "d2326bd089ced41927d6c1146e7d9144c9d5518b5e1fe254a6917bf50099e21b"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-003/prepared/listing-plan.json",
+      "sha256": "3d8f4d162ced1c4b4b03279f7df36ce75d8a6acc4166c2d0251609013dc1104e"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-01/v9-verified-products.json",
+      "sha256": "776d2985b7286129f93d519a53c8c128fa35dfe993949b0f6b68951745db772c"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-02-resumed-f78b65a3d0f1/v9-verified-products.json",
+      "sha256": "1c422d54b003adc91664716959374a6dfac6a25a240a2ef6785fd218b3bccbd5"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-03/v9-verified-products.json",
+      "sha256": "114331436f2030ffe8d0cf4542170f45abfa9d61353f7d4c60b18c627559727d"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-04/v9-verified-products.json",
+      "sha256": "ee9bd00e01b69ceae24ff75082de33be79512fd6d51989951dd85682cd38155a"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-05/v9-verified-products.json",
+      "sha256": "31d9fbd68bee1b82d461bbfb5914a1edc9036a992ca6e0ca28dd3ce5e062aa2a"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-06/v9-verified-products.json",
+      "sha256": "e79e55417cf19a90c8949832f635c517ed212389a2712a6f97255b1c8e14c97a"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-07/v9-verified-products.json",
+      "sha256": "002502999d08c171e024b9905b24c41663d118ae1c6c9ec0b6604b4208c247d9"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-08/v9-verified-products.json",
+      "sha256": "7518db8dbe66573a5b7ca48520d0761cad3776af5da998077e021243137c1e1f"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-09/v9-verified-products.json",
+      "sha256": "c5cbf30a8fece56902ae1e9253b7482b55dacb6ec9560aace0e4a9f3e989a8c7"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-10/v9-verified-products.json",
+      "sha256": "a5a3261a29a467230a4d73c6fea4626275c200bf5522f8e1ead628355dacc8f3"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-11/v9-verified-products.json",
+      "sha256": "d1d7d851c29df57a3e4923de01388b3dc641e49d4638df9a0639f69e634b0a4a"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-12/v9-verified-products.json",
+      "sha256": "4eae963c3bf27e63904fb636a1adef95d77887c41f1adb0ea25b49a87b6d03ec"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-13/v9-verified-products.json",
+      "sha256": "48b12452e938c404724c26e4a31476242b30dbbb178149b1d609608fe658beea"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-14-resumed-5d86ef881b75/v9-verified-products.json",
+      "sha256": "0e5e9073f88467e1b844637bb4316aea8689e61a858786169a279d901c633e7c"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-15/v9-verified-products.json",
+      "sha256": "8c7347d7297fb4588815c95e5287ac17cd898324444e58e7d931c61f2d2cc766"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-16/v9-verified-products.json",
+      "sha256": "5b5bb6139287448c21421906e0967b8f40f30eccff37070202f8df888dc716e6"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-17/v9-verified-products.json",
+      "sha256": "2c96ae524b69baec37d3d85ad4b679af75f972bcaf5737104f88a9df04fd4df4"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-18-resumed-33ff808cf025/v9-verified-products.json",
+      "sha256": "5ba1a8c636470b34e4316b4764712d9c19d2af85cc63dd54fb5ac59589defc8f"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-19/v9-verified-products.json",
+      "sha256": "eb2a15776bb083afc96b5c3f80fbcd9b4b16c1cfe4e5e8dca0a7999735008557"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/batch-004/card-20/v9-verified-products.json",
+      "sha256": "aff61343fb2080dfb2659ada2be1e0877061201cc3b930a5dd89434a83b0ccfd"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/remaining503-worker-state/progress.json",
+      "sha256": "6022b3a72b098412551e81fa42080b898a585b2b269beb74f051a6d12045e5c1"
+    },
+    {
+      "path": "output/pokemon-margin40-listing-20260928/second10-fresh-quotes-independent-20260928.json",
+      "sha256": "5e7ef5fca9d220458eb19830b8f5543a16af21c55ec8e2873c21a11e6df7b208"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-05/v9-verified-products.json",
+      "sha256": "f25e36213309dd254693eb9f9279f9559a518c485572740b56e2ef5f9b40bca2"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-06-resumed/v9-verified-products.json",
+      "sha256": "0acd42ecaa75cefee2d2747c7b72eb6956d3f325693e243316e06ad829460e7c"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-07/v9-verified-products.json",
+      "sha256": "dd302e7412f0d2ffa26f9ff4fc81ec5d60ce2e944766a2df655398de6ece171a"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-08-retry/v9-verified-products.json",
+      "sha256": "1dc73825e99990bb09983b3301824b87cef44b7f7436f25cc22e616052f40548"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-09/v9-verified-products.json",
+      "sha256": "253c8506d338c2f33e8aa7c7bfa46328569dc5033771f394c594b2f563bde722"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-10/v9-verified-products.json",
+      "sha256": "da6c1c6ba11234c8534e4a4528f9a9719c8458692c7d22e3290d11d25f3fb706"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-11/v9-verified-products.json",
+      "sha256": "e76c25331e5af66053d54d3ab9bfb64bdad2241a9221b4aa0cf2a4f3034104cf"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-12/v9-verified-products.json",
+      "sha256": "58b22ed420cbb22b2d154ec4c33b0b417b3b9ac8a31113645d9512d894bba913"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-13/v9-verified-products.json",
+      "sha256": "a439c648b88cf1200f9d830d36812c5cb89c9ed64f8e64fef1c6e6e8001a7de7"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-14/v9-verified-products.json",
+      "sha256": "504be85661a88e20fa5931f6ee361cfb62fa4539295005dd40448318df65a14d"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-15/v9-verified-products.json",
+      "sha256": "86dc3308d8ca565f594ffbc8315d4fca9c5a22edfb08216575643feb84e84182"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-16-retry/v9-verified-products.json",
+      "sha256": "6779bd088b250e0b5903a276a92fbd1b55345301e060ba01a169394c3fef9f15"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-17/v9-verified-products.json",
+      "sha256": "15b70fbb06833d8a17566578556b89e17e1d88b13f0b32aaa91f394115ec1a12"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-18-resumed/v9-verified-products.json",
+      "sha256": "f21eb52133b35d85fb9e6a1e8ea25e1bf65b4ef0e9ff5786a7520f53710c926f"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-19/v9-verified-products.json",
+      "sha256": "aea7ac0ec82de41e8afd5cb0b9dbfb4562610e13174688ac0db104765a386edd"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/approved-card-20/v9-verified-products.json",
+      "sha256": "d4108e6ee28eb5d0b01ed1bacdcf2d36b12fe64c8fa2f7e4b83e55e32d3391df"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/canary-resumed/v9-verified-products.json",
+      "sha256": "da76e0d96b79ed9b06c84267c4cde8f711793a90b8ea64c4eb6f96845828bf1f"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/english-diagnostic/v9-verified-products.json",
+      "sha256": "4e1ac51bd97516c9a4cd725d4ae7e514faf5db2bbaa6642e94b383d0a96d4271"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/remaining-19/v9-verified-products.json",
+      "sha256": "9a8c588760ed27eb088e9694d7bfc723e212065742ff6e9d165f9cb75b2049f5"
+    },
+    {
+      "path": "output/pokemon-v9-listing-20260927/execution/sc001-resumed-automatic-collection/v9-verified-products.json",
+      "sha256": "648a7ea57ed66f20067dac6ded28bb47950cd1e61ac7fb1bcc8a1d2c10c4e53d"
+    },
+    {
+      "path": "pokemon-single-card-sync/output/catalog.json",
+      "sha256": "84bb23a619a4237b361e634f2300d660648b9ab35eba7b61de4409883bcaf0b3"
+    },
+    {
+      "path": "pokemon-single-card-sync/output/last-run.json",
+      "sha256": "419a8332063fd420c003572ec80d7d003f7641219233ceabe68cccfda7903096"
+    }
+  ]
+}

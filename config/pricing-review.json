@@ -1,0 +1,37 @@
+{
+  "kind": "review_document_only_not_an_operational_config",
+  "preparedOn": "2026-10-02",
+  "status": "Existing implementation for review; not approval of a future pricing policy.",
+  "sourceFiles": [
+    "source/pokemon-single-card-sync/pricing.mjs",
+    "source/pokemon-single-card-sync/order-margin-pricing.mjs",
+    "source/pokemon-single-card-sync/config.json"
+  ],
+  "pricingModel": "order_net_margin_40_fee_7",
+  "sourceCurrency": "CNY",
+  "saleCurrency": "USD",
+  "usdCnyRate": 6.5,
+  "paymentFeeRate": 0.07,
+  "selectedNetMarginPercent": 40,
+  "procurementOrderShippingCny": 15,
+  "internationalShippingCny": 70,
+  "otherCostsCny": 0,
+  "formula": "ceil((sourceAmountCny + 15 + 70) / (6.5 * (1 - 0.07 - 0.40)))",
+  "rounding": "upward to whole USD",
+  "marginDefinition": "net profit CNY / gross sale revenue CNY",
+  "shippingMode": "independent_order_per_listing",
+  "quoteMetric": "lowest_asking",
+  "quoteConditionScope": "app_unfiltered_version_minimum; not condition-qualified",
+  "quoteMaxAgeHours": 4,
+  "quoteBusinessTimezone": "Asia/Shanghai",
+  "requireSameBusinessDay": true,
+  "maxDropPercent": 25,
+  "maxIncreasePercent": 100,
+  "reviewOnly": true,
+  "remoteExecutionAuthorizedByThisPackage": false,
+  "caveats": [
+    "Guard values are validation thresholds, not permission to reprice.",
+    "The order calculator charges shipping once for a combined order, but no cart repricing is implemented by the listing formula.",
+    "The existing helper enforces international shipping >= CNY 70; alternative shipping models need explicit review."
+  ]
+}

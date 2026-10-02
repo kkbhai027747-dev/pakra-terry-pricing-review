@@ -1,0 +1,14 @@
+[
+  {
+    "listingPath": "D:\\CODEX\\output\\pokemon-android-runtime\\app-validation-20260926\\sc-cards-full-02\\observations.json",
+    "outputDir": "D:\\CODEX\\pokemon-single-card-sync\\output\\app-packs\\100143"
+  },
+  {
+    "listingPath": "D:\\CODEX\\output\\pokemon-android-runtime\\app-validation-20260926\\jp-cards-full-02\\observations.json",
+    "outputDir": "D:\\CODEX\\pokemon-single-card-sync\\output\\app-packs\\100145"
+  },
+  {
+    "listingPath": "D:\\CODEX\\output\\pokemon-android-runtime\\app-validation-20260926\\en-cards-full-02\\observations.json",
+    "outputDir": "D:\\CODEX\\pokemon-single-card-sync\\output\\app-packs\\100236"
+  }
+]

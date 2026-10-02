@@ -1,0 +1,25 @@
+{
+  "store": "egk2fq-va.myshopify.com",
+  "shopifyCliPath": "C:/Users/JT/AppData/Roaming/npm/shopify.ps1",
+  "outputDir": "output",
+  "mappingFile": "mapping.json",
+  "batchSize": 10,
+  "requestDelayMs": 1000,
+  "dailyAt": "09:00",
+  "android": {
+    "adbPath": "D:/CODEX/output/pokemon-android-runtime/sdk/platform-tools/adb.exe",
+    "transport": "emulator",
+    "serial": "emulator-5580",
+    "serverPort": 15037
+  },
+  "pricingModel": "order_net_margin_40_fee_7",
+  "shipping": { "mode": "independent_order_per_listing", "procurementOrderCny": 15, "internationalCny": 70 },
+  "maxDropPercent": 25,
+  "maxIncreasePercent": 100,
+  "maxQuoteAgeHours": 4,
+  "pilotSets": [
+    { "language": "zh-Hans", "gameSubKey": "sc", "setId": "100143" },
+    { "language": "ja", "gameSubKey": "jp", "setId": "100145" },
+    { "language": "en", "gameSubKey": "en", "setId": "100236" }
+  ]
+}

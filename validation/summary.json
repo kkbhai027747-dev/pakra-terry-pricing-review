@@ -1,0 +1,25 @@
+{
+  "preparedOn": "2026-10-02",
+  "runtime": "v24.19.0",
+  "unchangedSourceCopies": 83,
+  "staticRelativeImportsResolved": 96,
+  "mappingRows": 120,
+  "uniqueIdentities": 120,
+  "uniqueProducts": 120,
+  "uniqueVariants": 120,
+  "realHistoricalExamplesReproduced": 10,
+  "focusedTests": {
+    "passed": 77,
+    "failed": 0,
+    "command": "node --test --test-reporter=tap source/pokemon-single-card-sync/test/order-margin-pricing.test.mjs source/pokemon-single-card-sync/test/pricing.test.mjs source/pokemon-single-card-sync/test/app-listing.test.mjs source/pokemon-single-card-sync/test/app-detail.test.mjs source/pokemon-single-card-sync/test/app-pack-detail.test.mjs source/pokemon-single-card-sync/test/app-quotes.test.mjs source/pokemon-single-card-sync/test/collect-app-daily.test.mjs"
+  },
+  "secretPatternScan": "No high-confidence credential patterns detected in allowlisted package contents.",
+  "networkCalls": 0,
+  "shopifyWrites": 0,
+  "deviceOrSchedulerActions": 0,
+  "limitations": [
+    "This validates local code/exports only, not current Shopify or source market values.",
+    "No full emulator/collector/live integration run; source runtime paths require machine-specific setup.",
+    "Raw capture evidence is referenced by provenance but is not included."
+  ]
+}

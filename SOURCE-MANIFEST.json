@@ -1,0 +1,587 @@
+{
+  "preparedOn": "2026-10-02",
+  "sourceRoot": "workstation repository backup (local snapshot)",
+  "sourceFiles": [
+    {
+      "packagedPath": "source/pokemon-single-card-sync/android-device.ps1",
+      "workspaceSource": "pokemon-single-card-sync/android-device.ps1",
+      "sha256": "89813aae4b5455d2beb13aea35b6e46fcb2ee98aab9cbdb5951c10812142f0dc",
+      "bytes": 1141,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/app-detail.mjs",
+      "workspaceSource": "pokemon-single-card-sync/app-detail.mjs",
+      "sha256": "bccd44fb7fbb98144bb7892ee38065d1a400e608b839177f1dfca71c6f9ccf4f",
+      "bytes": 15323,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/app-listing.mjs",
+      "workspaceSource": "pokemon-single-card-sync/app-listing.mjs",
+      "sha256": "1308a5c51bcfcd16c59c28e0bbf910c2ce0360d69687cf34ebc238da5360a6b7",
+      "bytes": 5427,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/app-pack-detail.mjs",
+      "workspaceSource": "pokemon-single-card-sync/app-pack-detail.mjs",
+      "sha256": "9298cab1d5e8fa1a00c36bb86a5c72d3318d5d271abdfa4e248001b83a2cfc21",
+      "bytes": 11885,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/app-quotes.mjs",
+      "workspaceSource": "pokemon-single-card-sync/app-quotes.mjs",
+      "sha256": "e61b4b58532bb5eae9679e81cca5793fe6d3c19600ffea04bc3285c1e35d2253",
+      "bytes": 12476,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/authorized-price-sync.mjs",
+      "workspaceSource": "pokemon-single-card-sync/authorized-price-sync.mjs",
+      "sha256": "f5ac15dc4f14533238e0fc102346af06e8514c620380a0343f813712be788a46",
+      "bytes": 26027,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/batch.mjs",
+      "workspaceSource": "pokemon-single-card-sync/batch.mjs",
+      "sha256": "40d500df19576db310e6bdb6d90a08b8ef654d44e771c926404a16928b898d09",
+      "bytes": 10463,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/batch003-quote-date-exception.mjs",
+      "workspaceSource": "pokemon-single-card-sync/batch003-quote-date-exception.mjs",
+      "sha256": "e44ce99ce095c650021a3c749bb16ed7af1b871d3af1664d1bb341912ac7dee8",
+      "bytes": 3488,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/build-listing-review.mjs",
+      "workspaceSource": "pokemon-single-card-sync/build-listing-review.mjs",
+      "sha256": "efd2dfc6627ae93a52b1b46ddfce7d1d3023f1b552e00880dea8765e43bc96ca",
+      "bytes": 9249,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/build-pokemon-theme-data.mjs",
+      "workspaceSource": "pokemon-single-card-sync/build-pokemon-theme-data.mjs",
+      "sha256": "cfd1d82e2b7ac6627a883edbb583dc46fdaa029d3266702bf009acf46080067c",
+      "bytes": 6314,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/capture-app-detail.ps1",
+      "workspaceSource": "pokemon-single-card-sync/capture-app-detail.ps1",
+      "sha256": "1b4c63d346090401f3ee6110044e9471d98270acea8c86839b28abe5715ff097",
+      "bytes": 22236,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/capture-app-list.ps1",
+      "workspaceSource": "pokemon-single-card-sync/capture-app-list.ps1",
+      "sha256": "164e128db0f46ec81d59eabfe1debdc4316e3f6c75caaf245ff85af8f6ea3ed2",
+      "bytes": 10846,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/capture-app-pack.ps1",
+      "workspaceSource": "pokemon-single-card-sync/capture-app-pack.ps1",
+      "sha256": "79a60126bf36732b70be8246ee81ad4f09f0b999642c21b3f396407eb8bf0a88",
+      "bytes": 24292,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/collect-app-daily.mjs",
+      "workspaceSource": "pokemon-single-card-sync/collect-app-daily.mjs",
+      "sha256": "dc96142fd9ba37ee92a81197922ff0da4f94fcd371979252f10a5fa51f40442e",
+      "bytes": 8812,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/completed-product-reader.mjs",
+      "workspaceSource": "pokemon-single-card-sync/completed-product-reader.mjs",
+      "sha256": "4fc569ad4a1f9df31917f516f31833b450261e499efec4a08657c4748936bf31",
+      "bytes": 3726,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/config.json",
+      "workspaceSource": "pokemon-single-card-sync/config.json",
+      "sha256": "b0223d6b6e8fff27a323f16564cf98e8e40a82244aa6d442e493ba4543a33d0d",
+      "bytes": 878,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/created-draft-resolution.mjs",
+      "workspaceSource": "pokemon-single-card-sync/created-draft-resolution.mjs",
+      "sha256": "bdd185c96bb909ea898b182c46d89624ca2383c3e513e91b59bb082a3556c666",
+      "bytes": 15854,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/creation-receipts.mjs",
+      "workspaceSource": "pokemon-single-card-sync/creation-receipts.mjs",
+      "sha256": "92f222e9f501db628b8c0bc636f977a6e71f6f2a9429c967b9c5539c5751cf3b",
+      "bytes": 11189,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/crop-app-card.py",
+      "workspaceSource": "pokemon-single-card-sync/crop-app-card.py",
+      "sha256": "315f3b35dbecda0e3c8b807fa8709926b7bb0ea57a465172bd032e56c1ef3a97",
+      "bytes": 7726,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/doctor.mjs",
+      "workspaceSource": "pokemon-single-card-sync/doctor.mjs",
+      "sha256": "53a72cd3e08fdf485546efd69344f47619a7cb7b6dae3971a53a8c0d3cc6ab1e",
+      "bytes": 5100,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/english-card-copy-overrides.mjs",
+      "workspaceSource": "pokemon-single-card-sync/english-card-copy-overrides.mjs",
+      "sha256": "8044296903332d6d99681201c7048efb617950c7fa4e2d9cca734ae1db8ebc0e",
+      "bytes": 186924,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/english-card-copy.mjs",
+      "workspaceSource": "pokemon-single-card-sync/english-card-copy.mjs",
+      "sha256": "2db0dbf8a44e180c55146398371bd4f5f96a05c619283907133e0e8d195966fd",
+      "bytes": 5440,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/export-app-preview.mjs",
+      "workspaceSource": "pokemon-single-card-sync/export-app-preview.mjs",
+      "sha256": "96148b840fcac21e4afe087b85dcc8c344d69f7eaf324077fe033f76b9a5db75",
+      "bytes": 10807,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/files.mjs",
+      "workspaceSource": "pokemon-single-card-sync/files.mjs",
+      "sha256": "09c9aa85b6839a6a62cfb196e945093174710df15047e63b5b4fb90b4df6db7a",
+      "bytes": 1265,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/initialize-headless-avd.ps1",
+      "workspaceSource": "pokemon-single-card-sync/initialize-headless-avd.ps1",
+      "sha256": "38cb76272db754bcfb3b356e3ee3b235297bb0accc683f5b14648477a012f6c2",
+      "bytes": 5898,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/install-app-pack-task.ps1",
+      "workspaceSource": "pokemon-single-card-sync/install-app-pack-task.ps1",
+      "sha256": "629cfc53f79ec5b16dda11d336c7ba9f241769263d5a6eb185c74f98f3bf0208",
+      "bytes": 2530,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/install-daily.ps1",
+      "workspaceSource": "pokemon-single-card-sync/install-daily.ps1",
+      "sha256": "1fc1670d1e97a549bf24d7e8fd1ec108cdd6ce6f34fee5fa1dd79dadede6be4d",
+      "bytes": 4277,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/install-listing-quotes-task.ps1",
+      "workspaceSource": "pokemon-single-card-sync/install-listing-quotes-task.ps1",
+      "sha256": "9110893f74983c534fb20e0d4ab0501cf7a049f6e0e856a73f8955e432e237a8",
+      "bytes": 3433,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/install-pack-watchdog-task.ps1",
+      "workspaceSource": "pokemon-single-card-sync/install-pack-watchdog-task.ps1",
+      "sha256": "a793bb0612dca3f082a1122a86f22dcf0cbf3445f971427d7cafcc1982175335",
+      "bytes": 3245,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/launch-emulator.mjs",
+      "workspaceSource": "pokemon-single-card-sync/launch-emulator.mjs",
+      "sha256": "d8eede153a6b86008e525a3bffb4261410a12c88bf1c0bc81b9b887eea3cb2aa",
+      "bytes": 1020,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/listed-app-cards.mjs",
+      "workspaceSource": "pokemon-single-card-sync/listed-app-cards.mjs",
+      "sha256": "8b1478a0fb7ba4e2a5816a019e6533c3851923ba53ff34aaa0c55fe38b033141",
+      "bytes": 7026,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/listing-shopify.mjs",
+      "workspaceSource": "pokemon-single-card-sync/listing-shopify.mjs",
+      "sha256": "eba3406a8e2f69865c0d5da79dc51af2d9a3377ca51e92a201bc74b735a52ee6",
+      "bytes": 64788,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/notify-pack-status.ps1",
+      "workspaceSource": "pokemon-single-card-sync/notify-pack-status.ps1",
+      "sha256": "8492e472c98a2920987694953ee38b75b0d4b2bd1831b6b449aabada9bebb19d",
+      "bytes": 2807,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/one-off-listing-policy.mjs",
+      "workspaceSource": "pokemon-single-card-sync/one-off-listing-policy.mjs",
+      "sha256": "169012e9f133faf436aa2ba7e80ed791dbe091f5e06d68cba24144a9ff0de41a",
+      "bytes": 18862,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/open-app-pack.ps1",
+      "workspaceSource": "pokemon-single-card-sync/open-app-pack.ps1",
+      "sha256": "b93314e1faaa1c1ef743925c728cee9e5001b5e70c131f551e85c26b0b729a63",
+      "bytes": 14179,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/order-margin-pricing.mjs",
+      "workspaceSource": "pokemon-single-card-sync/order-margin-pricing.mjs",
+      "sha256": "66525a7fa299a858d0347649cbf4ca73d681201f9f8025744f1736f3b5dc7778",
+      "bytes": 5535,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/pack-watchdog-policy.mjs",
+      "workspaceSource": "pokemon-single-card-sync/pack-watchdog-policy.mjs",
+      "sha256": "847558d78da852960ba796a559b3080784d1f1bcb4793feb0c2a6123b1e4472e",
+      "bytes": 6346,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/package.json",
+      "workspaceSource": "pokemon-single-card-sync/package.json",
+      "sha256": "2dc1c1c7a2887a6f24307986e44eee9ac35541468e6ec850a6ec9b2b50264056",
+      "bytes": 251,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/pilot-contexts.json",
+      "workspaceSource": "pokemon-single-card-sync/pilot-contexts.json",
+      "sha256": "25de9b429537fbe9afd75f563e02958458beac20aa322e256bdf0cced31b2106",
+      "bytes": 952,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/pilot-detail-context.json",
+      "workspaceSource": "pokemon-single-card-sync/pilot-detail-context.json",
+      "sha256": "8579026a8e77dd93ac3a12905d34a2b04941c8090954dd5c4dce4e02ceedea0a",
+      "bytes": 250,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/pilot-detail-en-context.json",
+      "workspaceSource": "pokemon-single-card-sync/pilot-detail-en-context.json",
+      "sha256": "a9c165b6cfb577d7aea5ef7f06d02a1df7197ea1cd4bc8256c7c8a28ffd579ae",
+      "bytes": 308,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/pilot-detail-ja-context.json",
+      "workspaceSource": "pokemon-single-card-sync/pilot-detail-ja-context.json",
+      "sha256": "a5f11239de9b1a8a1e81730b6693d9df4f618ff7624b723519c8a5e587b2dcd0",
+      "bytes": 313,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/pilot-pack-manifest.json",
+      "workspaceSource": "pokemon-single-card-sync/pilot-pack-manifest.json",
+      "sha256": "ffc16f7d3dccc7b3be90356e5b208bad2c5656a0c812cf5cc92bcf2d27992cd2",
+      "bytes": 657,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/prepare-listed-daily-input.mjs",
+      "workspaceSource": "pokemon-single-card-sync/prepare-listed-daily-input.mjs",
+      "sha256": "75c23aba2514cc57ab641c74b998188c39445cf105d57c1e5fecbb33dc3ad028",
+      "bytes": 13172,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/prepare-listings.mjs",
+      "workspaceSource": "pokemon-single-card-sync/prepare-listings.mjs",
+      "sha256": "15c369d339154001bb914d64d438fdb313d88f143050b9836738c48f9f3ac3ec",
+      "bytes": 17863,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/pricing.mjs",
+      "workspaceSource": "pokemon-single-card-sync/pricing.mjs",
+      "sha256": "c9dc6d4d1c8480c87bcb383fcbadff2b5d3eb3fee9c4f8c486322145b6c1c3fe",
+      "bytes": 14253,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/queue-quote-refresh.mjs",
+      "workspaceSource": "pokemon-single-card-sync/queue-quote-refresh.mjs",
+      "sha256": "659fab17dcb0322aa4ff2875783938f42e699201a0a5533078e13752d13afcc2",
+      "bytes": 12551,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/refresh-completed-mapping.mjs",
+      "workspaceSource": "pokemon-single-card-sync/refresh-completed-mapping.mjs",
+      "sha256": "821b73fa3b959edab4268fce2d8294efefdca51686f73946efdffa8a0409f6b0",
+      "bytes": 8562,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/run-app-daily.ps1",
+      "workspaceSource": "pokemon-single-card-sync/run-app-daily.ps1",
+      "sha256": "ed486a8fa6f1c8cd30ead41d763a9f1ba6482c7a1578494c867b76f1c8e71c21",
+      "bytes": 20862,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/run-app-pack-batches.ps1",
+      "workspaceSource": "pokemon-single-card-sync/run-app-pack-batches.ps1",
+      "sha256": "51466a6d60cbb8fa15c9d80db07428f76afbe3c22b8fa68b0150a95f09dd9784",
+      "bytes": 18947,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/run-approved-listings.mjs",
+      "workspaceSource": "pokemon-single-card-sync/run-approved-listings.mjs",
+      "sha256": "51737f02a839990a5f99e5f8e8419bace6649f0bc03e35e30c60a8002b0043ba",
+      "bytes": 3499,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/run-background.ps1",
+      "workspaceSource": "pokemon-single-card-sync/run-background.ps1",
+      "sha256": "338496a1f484adee22560a9badeda465f8ddcd9785907a7969f4e56b4c0f53cb",
+      "bytes": 5070,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/run-listed-daily.mjs",
+      "workspaceSource": "pokemon-single-card-sync/run-listed-daily.mjs",
+      "sha256": "2c06eefaed18f6b837bce6a1a2f9ff7097409858e10ff651bd0e7e5592e07587",
+      "bytes": 19880,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/run-listing-quotes.ps1",
+      "workspaceSource": "pokemon-single-card-sync/run-listing-quotes.ps1",
+      "sha256": "d8e167ff344b17e2d78bf5579bfcda1fc230a7f1987b663891430dea418e51a9",
+      "bytes": 25239,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/run-pack-watchdog.ps1",
+      "workspaceSource": "pokemon-single-card-sync/run-pack-watchdog.ps1",
+      "sha256": "30e71a63591b4cd96b89e98e82916b0f148edf791a6aa086905ce70ba981d53e",
+      "bytes": 20987,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/shopify.mjs",
+      "workspaceSource": "pokemon-single-card-sync/shopify.mjs",
+      "sha256": "4365893112d9095f9af6779134322d93976c62ed5f3d39e6dbbdd8f6caee43e7",
+      "bytes": 19215,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/source.mjs",
+      "workspaceSource": "pokemon-single-card-sync/source.mjs",
+      "sha256": "f2f39b8550fa61a57b261d10b4f0601268b9230d404a4edcacc36b1525f10c89",
+      "bytes": 10829,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/start-headless-android.ps1",
+      "workspaceSource": "pokemon-single-card-sync/start-headless-android.ps1",
+      "sha256": "0eef7fcf9a89981d9ffe2aed8f28d6ca3447f548d8587467e8d88fbfeb2c5ba7",
+      "bytes": 9128,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/summarize-app-detail.mjs",
+      "workspaceSource": "pokemon-single-card-sync/summarize-app-detail.mjs",
+      "sha256": "f7150793c02475b8c8d34824de6cdc0770590ff89de29d2ef1847cbb18a5266c",
+      "bytes": 6243,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/summarize-app-list.mjs",
+      "workspaceSource": "pokemon-single-card-sync/summarize-app-list.mjs",
+      "sha256": "461fcd494e1a39c592e29d71765e734530e5b38201ef4c44a4a7b35eb9a90e9c",
+      "bytes": 8743,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/sync.mjs",
+      "workspaceSource": "pokemon-single-card-sync/sync.mjs",
+      "sha256": "90ec51b387a5d53240ba51cefe7e81ea2a2ac784c07270312545b7d3366c05ec",
+      "bytes": 12592,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/verify-app-pack.mjs",
+      "workspaceSource": "pokemon-single-card-sync/verify-app-pack.mjs",
+      "sha256": "c1c3f5e7b51c9a0a62299ff1cd53924d03202703241e1ecf8a3c60831669eff3",
+      "bytes": 12223,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/test/pricing.test.mjs",
+      "workspaceSource": "pokemon-single-card-sync/test/pricing.test.mjs",
+      "sha256": "f753414b1485cd0af7fb3952c504336ff8adcadea45126bbbe6656e0e656db26",
+      "bytes": 20655,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/test/order-margin-pricing.test.mjs",
+      "workspaceSource": "pokemon-single-card-sync/test/order-margin-pricing.test.mjs",
+      "sha256": "0361cc6b8e933f27d9049e34d663e101aeeb75a9da34c13026a7a0b7caad1257",
+      "bytes": 2933,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/test/app-quotes.test.mjs",
+      "workspaceSource": "pokemon-single-card-sync/test/app-quotes.test.mjs",
+      "sha256": "68b9f8fd75139511f159dcbc4e5bd1f449394c13eada94a013afe4b76385f33c",
+      "bytes": 20929,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/test/app-detail.test.mjs",
+      "workspaceSource": "pokemon-single-card-sync/test/app-detail.test.mjs",
+      "sha256": "7fc5a3ba3a8632533aca5518fa8f78dd9426ca1495ee812ab20a6b42c4cce43e",
+      "bytes": 16099,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/test/app-listing.test.mjs",
+      "workspaceSource": "pokemon-single-card-sync/test/app-listing.test.mjs",
+      "sha256": "a9e9fd1c1a735ed6146b85e083ad0a757741dab09dc90a804fe4b23841c60de7",
+      "bytes": 9474,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/test/app-pack-detail.test.mjs",
+      "workspaceSource": "pokemon-single-card-sync/test/app-pack-detail.test.mjs",
+      "sha256": "932cba567b0b318fcfe38b389fc62e660f060e7d7cef3fcb8b3babad05b6cd0c",
+      "bytes": 11290,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/pokemon-single-card-sync/test/collect-app-daily.test.mjs",
+      "workspaceSource": "pokemon-single-card-sync/test/collect-app-daily.test.mjs",
+      "sha256": "deedc934c242fc713d7f5488f70dc34d7c040ef80bb950e670c477c17587a04e",
+      "bytes": 5844,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/collaboration/pakra-projects-handoff/scripts/lib/cn-card-pricing-policy.mjs",
+      "workspaceSource": "collaboration/pakra-projects-handoff/scripts/lib/cn-card-pricing-policy.mjs",
+      "sha256": "82253214afef5078fd773a51a82db9bf7cbd0f28a7ebf1f0f13a912d92066388",
+      "bytes": 1145,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/collaboration/pakra-projects-handoff/scripts/lib/pricing/money.mjs",
+      "workspaceSource": "collaboration/pakra-projects-handoff/scripts/lib/pricing/money.mjs",
+      "sha256": "951a99c5e3949de1ac84337ebf1b90fd4dbd98ac9f08851ee721760fdad7840c",
+      "bytes": 244,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/collaboration/pakra-projects-handoff/scripts/lib/pricing/policy.mjs",
+      "workspaceSource": "collaboration/pakra-projects-handoff/scripts/lib/pricing/policy.mjs",
+      "sha256": "468b871e7a25e2a55790cdba89b71ecc82d4d98e9dcbe24519bbec10b228de5a",
+      "bytes": 10409,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/collaboration/pakra-projects-handoff/scripts/lib/qiandao/conditions.mjs",
+      "workspaceSource": "collaboration/pakra-projects-handoff/scripts/lib/qiandao/conditions.mjs",
+      "sha256": "f07a2123a3befae56df55704df11828cd9d8ff993a93deffd96083afe47cda16",
+      "bytes": 4515,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/collaboration/pakra-projects-handoff/scripts/lib/qiandao/price-evidence.mjs",
+      "workspaceSource": "collaboration/pakra-projects-handoff/scripts/lib/qiandao/price-evidence.mjs",
+      "sha256": "c18800fbe7c3ce3051bbea0d41b000c465ca63be72825d6b6c7907ae6179fbb0",
+      "bytes": 13273,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/output/pokemon-margin40-listing-20260928/batch-recovery-candidate/recovery-evidence.mjs",
+      "workspaceSource": "output/pokemon-margin40-listing-20260928/batch-recovery-candidate/recovery-evidence.mjs",
+      "sha256": "3b0ec0cb5e645109384e4a1874965402012ee0c6c6c54de5deaffdf0c702d3f8",
+      "bytes": 13541,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/output/pokemon-margin40-listing-20260928/final-public-audit/audit-public-products.mjs",
+      "workspaceSource": "output/pokemon-margin40-listing-20260928/final-public-audit/audit-public-products.mjs",
+      "sha256": "6d446533ac37c39a3b20d41a39ed0ca31610206a1339fbcf6e6cbdaacce2cd69",
+      "bytes": 24150,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "source/output/pokemon-margin40-listing-20260928/worker-resume-review.mjs",
+      "workspaceSource": "output/pokemon-margin40-listing-20260928/worker-resume-review.mjs",
+      "sha256": "dfbec7dd2bcc2ce80804fba11dad110017b06ab1ba622e691015ca3c54d63fb8",
+      "bytes": 11049,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "data/historical-shopify-mapping-120.json",
+      "workspaceSource": "output/terry-pricing-handoff-20261002/staging-data/historical-shopify-mapping-120.json",
+      "sha256": "10b3de0977fe50aacf0bb077f6e357b9726a7f469eafab6cd1d31d87bd71b44f",
+      "bytes": 233598,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "data/historical-shopify-mapping-120.csv",
+      "workspaceSource": "output/terry-pricing-handoff-20261002/staging-data/historical-shopify-mapping-120.csv",
+      "sha256": "17cca893b1d123845a7b1f655a54dd44eafec7cdb8464d6146425a4ef3cc1f8e",
+      "bytes": 132619,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "data/historical-pricing-samples-10.json",
+      "workspaceSource": "output/terry-pricing-handoff-20261002/staging-data/historical-pricing-samples-10.json",
+      "sha256": "0785ad4737c71e3f68da58644d88d116bf1af28541c77dce8162b7d1b0716e81",
+      "bytes": 33203,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "data/historical-pricing-samples-10.csv",
+      "workspaceSource": "output/terry-pricing-handoff-20261002/staging-data/historical-pricing-samples-10.csv",
+      "sha256": "a9da4acbe5c202703b9239590f6c73546d381a1291ba06db7fdc50d53d9bbc28",
+      "bytes": 19936,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "data/sample-and-status-notes.json",
+      "workspaceSource": "output/terry-pricing-handoff-20261002/staging-data/sample-and-status-notes.json",
+      "sha256": "e4a597bb21c409a79604cc26ee5242830e16f24a15cb5689ed5bed65495ea9e5",
+      "bytes": 3617,
+      "transformation": "verbatim copy"
+    },
+    {
+      "packagedPath": "data/provenance.json",
+      "workspaceSource": "output/terry-pricing-handoff-20261002/staging-data/provenance.json",
+      "sha256": "4f6e86d16192ced1c51bf977312b484db86c9a0df3077a755fc7593b80b6348b",
+      "bytes": 25537,
+      "transformation": "verbatim copy"
+    }
+  ]
+}

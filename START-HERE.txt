@@ -1,0 +1,60 @@
+PAKRA / Terry — Initial Pokémon singles pricing handoff
+Prepared: 2 October 2026 (Asia/Shanghai)
+
+Purpose
+This is a staged technical review package. Card collection, fresh quotations and
+Shopify integration are still being completed. Jun continues the multi-IP catalog
+and storefront. Terry reviews pricing reliability, shipping assumptions, card
+condition filtering and the design of future automation. Jun and Hao review the
+proposal before any future live price changes.
+
+Start with these files
+1. config/pricing-review.json — current formula and its assumptions.
+2. data/ — real historical samples, mapping and provenance (see DATA-NOTES.txt).
+3. SOURCE-GUIDE.txt — which existing scripts perform each step.
+4. KNOWN-GAPS.txt — incomplete work and questions for the review.
+5. validation/ — checks performed on this copied package.
+
+This package is based entirely on local saved files. No Shopify, Jihuanshe or
+other remote service was contacted while preparing it. Historical observations
+are not today's quotes or a new live readback. File modification dates were
+affected by workstation migration; use the embedded observation/audit timestamps.
+
+The current implementation uses:
+USD = ceil((source CNY + 15 + 70) / (6.5 * (1 - 0.07 - 0.40))).
+The 40% figure is a working assumption for this review. It is net profit divided
+by gross sale revenue, not a 40% markup. The 7% fee is taken from gross revenue.
+Each displayed card price assumes its own procurement and international shipment.
+The separate local order calculator can aggregate card costs and charge shipping
+once. This does not mean the storefront already reprices multi-card carts.
+
+Safe offline starting point
+Requirements: Node.js 22 or later. No npm install is needed for these Node files.
+From the extracted package root:
+  node source/pokemon-single-card-sync/order-margin-pricing.mjs --cost-cny 79
+  node review/reproduce-samples.mjs
+The first command returns 30%, 40% and 50% scenarios; reference40 is the selected
+listing formula. The second recomputes only the included historical examples.
+Neither command contacts a remote service.
+
+For the included focused tests, run:
+  node --test source/pokemon-single-card-sync/test/*.test.mjs
+Use the exact tested commands and results in validation/VALIDATION.txt.
+
+Code snapshot boundaries
+Existing source code is copied verbatim. It includes live integration, task
+installation and mutation-capable code so its guards can be reviewed. Those
+entrypoints are not offline demos. Do not run sync apply, listing creation,
+daily/task installation, recovery or Shopify write entrypoints from this package.
+No historical approval/control files, credentials, device image, login profile,
+emulator binaries, customer/order/payment records or theme deployment files are
+included. This package does not authorize any remote write or grant store access.
+
+The original config contains workstation-specific paths. They are retained as
+evidence, not a ready-to-run configuration for Terry's machine. ADB/emulator,
+PowerShell, Python/Pillow and official Shopify CLI setup are only needed for a
+later separately configured integration. They are not needed for the offline
+calculator or the included unit tests.
+
+SHA-256 file checksums and original source paths are recorded in
+SOURCE-MANIFEST.json and FILE-MANIFEST.json.

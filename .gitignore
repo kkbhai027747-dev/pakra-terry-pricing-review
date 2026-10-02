@@ -1,0 +1,9 @@
+# Keep local runtime data and credentials out of the review repository.
+.env
+.env.*
+node_modules/
+__pycache__/
+*.pyc
+*.log
+source/pokemon-single-card-sync/output/
+source/pokemon-single-card-sync/mapping.json

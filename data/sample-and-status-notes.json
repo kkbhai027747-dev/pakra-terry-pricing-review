@@ -1,0 +1,66 @@
+{
+  "prepared_on": "2026-10-02",
+  "prepared_for": "Terry",
+  "extraction_scope": "Local saved product/catalog/quote evidence only; no network calls, Shopify reads/writes, app collection, or scheduler invocation.",
+  "timestamps": "ISO timestamps are UTC. Source embedded timestamps are used because copied/migrated file modification times are not evidence of collection time.",
+  "status": {
+    "latest_saved_independent_audit_at_utc": "2026-10-01T08:23:21.603Z",
+    "audit_status": "in_progress",
+    "audit_worker_status_at_that_time": "waiting_resources",
+    "acquired_catalog_identity_and_image_records": 544,
+    "catalog_updated_at_utc": "2026-09-27T16:44:02.061Z",
+    "source_language_counts": {
+      "zh-Hans": 176,
+      "ja": 177,
+      "en": 191
+    },
+    "single_card_scope": 543,
+    "held_card_sets": [
+      {
+        "identity": "pokemon:ja:100145:01a08998-5d7c-75bb-bafb-b9fcd4f6e1dd",
+        "card_number": "M6a-151~152/103(1Set)",
+        "status": "held_pending_unit_review"
+      }
+    ],
+    "historically_verified_products": 120,
+    "historically_recorded_v9_catalog_cards": 120,
+    "remaining_single_card_products_in_saved_audit": 423,
+    "mapped_language_counts": {
+      "zh-Hans": 50,
+      "ja": 1,
+      "en": 69
+    },
+    "catalog_import_lowest_asking_verified": false,
+    "imported_images_are_originals": false,
+    "current_running_status": "not checked; no worker or device was started",
+    "older_worker_state": {
+      "embedded_last_event_at_utc": "2026-10-01T07:20:21.947Z",
+      "status": "stopped_review_required",
+      "reason": "listing_cli_result_unknown",
+      "note": "Older than independent audit; its counts are not used as the latest snapshot."
+    }
+  },
+  "important_limits": [
+    "544 acquired catalog records means card identity/image capture, not 544 completed fresh price checks or listings.",
+    "All 120 mappings are historical saved snapshots; current Shopify price, availability and completeness were not refreshed for this handoff.",
+    "All 10 samples reproduce the current-model formula used in their historical records. All quote timestamps are stale for execution on the handoff date.",
+    "Minimum asking prices are app_unfiltered_version_minimum; condition, genuine purchase availability and source-card variant accuracy need further review.",
+    "Matching arithmetic is not proof of a fair selling price. No sample is asserted to be a confirmed wrong price.",
+    "The RMB 85 allowance is embedded separately in every listed unit, so low-value cards cluster near USD 25-27. Order-level shipping/profit modeling remains a review topic.",
+    "Historical readback files often omit their own timestamp. Completion time and supporting audit time are separate fields and are not claimed to be fresh readback times.",
+    "Raw app screenshots and raw capture UI data are not included. Recorded evidence hashes and repository-relative source pointers are provided for traceability.",
+    "These exports are review data, not executable mapping configuration or authorization to update prices."
+  ],
+  "validation": {
+    "mapping_rows": 120,
+    "unique_identities": 120,
+    "unique_product_ids": 120,
+    "unique_variant_ids": 120,
+    "readback_price_matches_audit_or_ledger": 120,
+    "display_only_saved_readbacks": 120,
+    "sample_rows": 10,
+    "sample_quotes_match_summary_amount_and_timestamp": 10,
+    "sample_recomputed_usd_matches_saved_price": 10,
+    "input_hash_checks": "All supplied historical expected hashes checked for audited readback inputs; every input used has a newly computed SHA-256 in provenance.json."
+  }
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "language": "zh-Hans",
+    "setId": "100143",
+    "setCode": "30thC",
+    "packName": "30周年庆典",
+    "cardName": "耿鬼",
+    "cardNumber": "30thC-150/103",
+    "shareUrl": "https://api.jihuanshe.com/pro/cards/01a08652-8a3f-76fd-ac02-ad75ebe919d7"
+  },
+  {
+    "language": "ja",
+    "languageLabel": "日文",
+    "setId": "100145",
+    "setCode": "M6a",
+    "packName": "30周年庆典",
+    "cardName": "耿鬼",
+    "originalName": "ゲンガー",
+    "cardNumber": "M6a-150/103",
+    "shareUrl": "https://api.jihuanshe.com/pro/cards/01a0874c-bb7c-7135-9840-035c6f6357e0"
+  },
+  {
+    "language": "en",
+    "languageLabel": "英文",
+    "setId": "100236",
+    "setCode": "30C",
+    "packName": "30周年庆典",
+    "cardName": "耿鬼",
+    "originalName": "Gengar",
+    "cardNumber": "TRIU-94(30C)",
+    "shareUrl": "https://api.jihuanshe.com/pro/cards/01a0a84f-3ab9-7951-99cc-20656f42148d"
+  }
+]
